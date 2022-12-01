@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [run2classSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestClass.CheckOutP5Test">
+        <methods>
+          <include name="verifycurrentUrlTest"/>
+          <include name="verifylebel1checkTest"/>
+          <include name="payiswascardnfoTest"/>
+          <include name="payinfoTest"/>
+          <include name="closedbroweser"/>
+          <include name="qtydiTest"/>
+          <include name="ponyTest"/>
+          <include name="finbtnTest"/>
+          <include name="itemTest"/>
+          <include name="taxTestTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestClass.CheckOutP5Test -->
+      <class name="TestClass.CartPage3Test">
+        <methods>
+          <include name="setup"/>
+          <include name="LinkdinlogoTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestClass.CartPage3Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [run2classSuite] -->
